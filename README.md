@@ -199,3 +199,28 @@ Now you can make use of env-vars\uat.yml file to define which loadbalancer to us
 
 ![alt text](./images/playError4.PNG)
 
+
+![alt text](./images/lb.PNG)
+
+![alt text](./images/lb1.PNG)
+
+![alt text](./images/lb2.PNG)
+
+![alt text](./images/lb3.PNG)
+
+![alt text](./images/lb4.PNG)
+
+
+
+![alt text](./images/nginxConfig.PNG)
+
+
+![alt text](./images/nginxConfig1.PNG)
+
+
+The same must work with apache LB, so you can switch it by setting respective environmental variable to true and other to false.
+
+To test this, you can update inventory for each environment and run Ansible against each environment.
+
+Congratulations!
+You have learned and practiced how to use Ansible configuration management tool to prepare UAT environment for Tooling web solution.
